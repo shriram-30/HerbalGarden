@@ -1,0 +1,49 @@
+/* PlantDescription.css */
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* General Styling for Plant Description */
+  .plant-description {
+    flex: 1;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  /* Fade-in Effect for Title */
+  .plant-title {
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  /* Fade-in Effect for Section Headers */
+  .plant-section-title {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 1.8s ease-in-out forwards;
+  }
+  
+  /* Fade-in Effect for Paragraphs */
+  .plant-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+  
+  /* Fade-in Effect for List Items */
+  .plant-list li {
+    font-size: 1rem;
+    opacity: 0;
+    animation: fadeIn 2.2s ease-in-out forwards;
+  }
+  
